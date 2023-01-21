@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Игра Scrabble (Словодел)
+    
+Настольная игра Scrabble или Словодел - игра на составление слов из предложенных букв и букв слов, уже выставленных на поле.
+                      
+Первое слово располагают так, чтобы оно пересекало клетку в центре поля. Слова составляются по горизонтали и вертикали и должны читатьсяслева направо или сверху вниз. За один ход можно составить любое количество слов из имеющихся на руках букв. Игрок может в счет своегохода поменять буквы на другие из оставшихся.
+                      
+Каждая буква имеет свою ценность - очки, которые засчитываются игроку при каждом создании игроком нового слова.  Если буква попадает наголубую клетку, то очки за букву удваиваются; если буква попадает на синюю клетку, то очки за букву утраиваются; если слово пересекаетрозовую клетку, то очки за слово удваиваются; если слово пересекает красную клетку, то очки за слово утраиваются.
+                      
+Количество оставшихся в игре букв отображается в таблице.
+                      
+По базовым правилам используются только существительные в именительном падеже и единственном числе, но это правило зависит только отдоговоренностей игроков.
+                      
+Чтобы написать слово, нужно выбрать ячейку, в которую вы хотите поместить слово, и написать букву. Для одной буквы одна ячейка. Послеэтого нужно нажать на кнопку “Сохранить слово”
+                      
+Чтобы поменять буквы, нужно нажать на кнопку “Поменять буквы”
+                      
+Если на ваш взгляд больше слов вы составить не можете, а букв не осталось, нажмите на кнопку “Завершить игру”. После этого будетпроизведено сравнение очков и получение победителя
+                      
+Для начала новой игры нажмите кнопку “Новая игра”. При этом текущая игра будет сброшена без объявления победителя
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Как запустить?
 
-## Available Scripts
+Устанавливаем зависимости:
 
-In the project directory, you can run:
+npx create-react-app scrabble
+````
 
-### `npm start`
+После установки нужно заменить содержимое созданного проекта на файлы в этом проекте
+````
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Запускаем проект:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start

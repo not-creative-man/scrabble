@@ -1,0 +1,7 @@
+.table_row{
+    /* height: 50px; */
+    outline: 1px solid rgba(173, 218, 194, 1);
+    width: auto;
+    display: flex;
+    align-items: center;
+}

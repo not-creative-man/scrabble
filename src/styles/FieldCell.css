@@ -1,0 +1,50 @@
+:root{
+    --cell: 44.5px;
+}
+
+.field_cell{
+    height: var(--cell);
+    width: var(--cell);
+    outline: 1px solid rgba(173, 218, 194, 1);
+    
+}
+
+.field_cell>input{
+    height: var(--cell);
+    width: var(--cell);
+    font-size: 25px;
+    background-color: rgba(2, 132, 113, 1);
+    color: white;
+}
+
+.field_cell>input::-webkit-input-placeholder{
+    font-size: 18px;
+}
+
+.red_cell>::-webkit-input-placeholder{
+    color:rgb(210, 210, 210);
+}
+::-moz-placeholder{
+    color:rgb(210, 210, 210);
+}
+
+.red_cell > input{
+    background-color: rgba(219, 40, 36, 1);
+    color: white;
+    
+}
+
+.dark_blue_cell > input{
+    background-color: rgba(20, 161, 217, 1);
+    color: white;
+}
+
+.pink_cell > input{
+    background-color: rgba(221, 177, 154, 1);
+    color: rgb(0, 0, 0);
+}
+
+.blue_cell > input{
+    background-color: rgba(168, 205, 214, 1);
+    color: black;
+}

@@ -1,0 +1,27 @@
+.bank_wrapper{
+    width:min-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.table_letters{
+    display: flex;
+    background-color: rgba(173, 218, 194, 1);
+    outline: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.table_letters_wrapper{
+    display: flex;
+    outline: 1px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.table_header{
+    
+}

@@ -1,0 +1,11 @@
+.table{
+    margin-right: 4px;
+}
+
+.table_letters_wrapper{
+    margin: 14px;
+}
+
+.table_letters_wrapper > .table:last-child{
+    margin-right: 0;
+}

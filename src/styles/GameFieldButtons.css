@@ -1,0 +1,10 @@
+.buttons_wrapper{
+    margin-top: 26px;;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.buttons_wrapper > button{
+    cursor: pointer;
+}

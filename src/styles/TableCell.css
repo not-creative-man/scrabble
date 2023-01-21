@@ -1,0 +1,27 @@
+:root{
+    --tc-height: 23.4px;
+    --tc-width: 74px;
+}
+
+.table_row_wrapper{
+    display: flex;
+}
+
+.tc{
+    height: 23.4px;
+    width: 74px;
+    outline: 1px solid rgba(173, 218, 194, 1);
+    text-align: center;
+}
+
+input{
+    padding: 0;
+    text-align: center;
+    border: 0;
+    height: var(--tc-height);
+    width: var(--tc-width);
+}
+
+.input{
+    width: auto;
+}
